@@ -42,6 +42,29 @@ Si tienen quilombos de algo:
 
             git branch -D <nombre rama>
 
-Si siguien teniendo quilombos 
+Si siguien teniendo quilombos, vayan a buscar a su mejor amigo
 
-[AyudaDocente;)](https://chat.openai.com/)
+[Tu mejor amigo para aprender cosas de git cuando todo este roto](https://chat.openai.com/)
+
+## Branches, como usarlas
+
+La idea de que usen branches es que utilicen un modelo popular de trabajo que se utiliza en la mayoria de los lugares en donde pueden terminar trabajando.
+Mi recomendacion es que tengan las siguientes ramas en su repo:
+
+- main: Esta rama la crea por defecto github, dejenla vacia porque idealmente aqui deberian entregar su codigo mediante PR (lo vemos mas adelante)
+
+- dev: En esta rama tendran la version entregable de los tps, es decir, lo poco o la totalidad del codigo que han conseguido hacer funcionar hasta este punto
+
+- integracion: En esta rama haran las integraciones de su codigo !!!  Es decir si el miembro `A` del equipo tiene la rama `X` y tiene listos sus cambios los va a mandar a dev (explico como en el siguiente paso) y lo mismo hara `B` con su rama `Y`. Por lo tanto si hay un quilombo se lo come ESTA RAMA y la rama main con el codigo que mas o menos anda o anda, sigue intacta. Esta rama seria creada a partir de main
+
+- <feature - sus inciales>: Aca estara trabajando cada uno desarrollando una porcion del tp, esta rama esta basada en una version estable de integracion o dev (a gusto de ustedes)
+
+Por lo tanto el flujo de como iran enviando sus cambios de rama en rama es el siguiente:
+
+<rama personal> -> integracion -> (si y solo si esta todo bien aca) -> dev 
+
+## Como enviar info de rama en rama ?? 
+
+            git merge 
+
+De esto vamos a hablar en la siguiente seccion 
