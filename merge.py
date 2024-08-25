@@ -2,6 +2,10 @@ def main():
     print("Hola mundo")
     return 0
 
+def for_dinamico(n: int):
+    for i in range(n): 
+        print(n)
+
 def imprimirCosasRandom():
     print("Quiero crear un conflicto")
 
