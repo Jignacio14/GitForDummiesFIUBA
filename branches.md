@@ -68,3 +68,7 @@ Por lo tanto el flujo de como iran enviando sus cambios de rama en rama es el si
             git merge 
 
 De esto vamos a hablar en la siguiente seccion 
+
+            git switch 05-git-merge-origen
+
+
