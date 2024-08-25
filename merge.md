@@ -42,3 +42,33 @@ Seamos Alan por 5 minutos
                 return 1
             return n * factorial(n - 1)
     ```
+    Un conflicto les muestra sobre un archivo las coliciones que existen entre el codigo de Alan y Barbara. Barbara en algun momento habra enviado dos funciones al repo llamadas `for_dinamico` y `imprimirCosasRandom` en el momento que Alan realiza el merge todo se complica y debe solucionarlo
+
+### Como solucionar un merge ?
+
+Y bueno deben leer y entender que fue lo que paso en el merge. Vean con atencion que hay dos segmentos 
+
+        ```python
+            
+            <<<HEAD 
+                <Codigo de barbara>
+            =======
+                <Codigo de alan>
+            >>> <Nombre de la rama de alan>
+        ```
+- El segmento <<<< HEAD es el que contiene los cambios que estan almacenados en el repo
+- El segmento >>> <Nombre rama> son los cambios que tenemos de manera local y queremos agregar 
+
+Tenemos 3 cosas por hacer para solucionar el codigo:
+
+- Elimina la porcion del codigo head de barbara que no sirve de nada y que actualizamos de forma local
+- Elimina tu codigo que quedo viejo en comparacion a los cambios que ingreso barbara y son una mejora en esa feature
+- Combina los dos !! Si tanto el codigo de Alan como el de Barbara es el que debe quedar finalmente en el repo pues te toca mezclar el codigo
+
+## Pull request 
+
+Un pull request es una peticion para agregar codigo entre ramas, no es lo mismo que el merge, pero incluye los merges. La idea de esto es que vos mandes el codigo de tu rama a la rama de integracion o como mas te guste y le pidas a tu equipo que apruebe los cambios, asi, podes evaluar, corregir y mejorar el codigo de manera colaborativa. 
+
+Antes de mandar un pull request a una rama cualquiera TENES que hacer un merge local, porque si tiene conflictos, estas mandando cualquiera !!!! 
+
+Por eso es muy importante que te aprendas de memoria el algoritmo para realizar merges, si se te olvida, veni a este repo, no pasa nada, cuando lo hagas 3-4 veces te lo aprendes de memoria y te sale automatico !
