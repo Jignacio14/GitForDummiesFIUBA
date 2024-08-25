@@ -6,5 +6,12 @@ Es un repositorio ***INTERACTIVO*** por lo tanto recomiento fuertemente que se s
 
 Los archivos del repositorio estaran en el lenguaje de programacion python, esto es irrelevante aunque para la catedra que esta destinada usa Java, los conceptos aca son generales y son aplicables a cualquier lenguaje (Esto por si son muy nuevos)
 
+Lo primero que tienen que hacer antes de comenzar es clonar el repositorio en su computadora utilizando el siguiente comando. Si tienen la configuracion de ssh (algo muy avanzado) usen esa opcion, caso contrario, utilicen el siguiente comando: 
 
+            git clone https://github.com/Jignacio14/GitForDummiesFIUBA.git
 
+Para el primer paso necesito que hagan algo confiando en mi ! Ingresen este comando en alguna terminal 
+
+            git switch 01-status-add-commit-push 
+
+Lo que hacemos aca lo explico mas adelante
