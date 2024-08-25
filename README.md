@@ -4,4 +4,7 @@ El proposito de este repo es explicarles los conceptos basicos de git a los alum
 
 Es un repositorio ***INTERACTIVO*** por lo tanto recomiento fuertemente que se sienten a realizar el paso a paso que les vamos a pedir que realicen asi practican estos conceptos fundamentales y escenciales 
 
+Los archivos del repositorio estaran en el lenguaje de programacion python, esto es irrelevante aunque para la catedra que esta destinada usa Java, los conceptos aca son generales y son aplicables a cualquier lenguaje (Esto por si son muy nuevos)
+
+
 
