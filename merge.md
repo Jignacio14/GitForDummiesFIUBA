@@ -65,6 +65,14 @@ Tenemos 3 cosas por hacer para solucionar el codigo:
 - Elimina tu codigo que quedo viejo en comparacion a los cambios que ingreso barbara y son una mejora en esa feature
 - Combina los dos !! Si tanto el codigo de Alan como el de Barbara es el que debe quedar finalmente en el repo pues te toca mezclar el codigo
 
+## Tarea
+
+Tomen el codigo anterior en python y solicionen el conflicto a mano en algun editor de texto cualquiera !
+
+[Una solucion al conflicto](https://github.com/Jignacio14/GitForDummiesFIUBA/blob/05-git-merge-destino-con-merge/merge.py)
+
+Vean solo la solucion una vez hayan hecho algo !!! No sirve de nada que vean la respuesta, de lo contrario no se curtiran !
+
 ## Pull request 
 
 Un pull request es una peticion para agregar codigo entre ramas, no es lo mismo que el merge, pero incluye los merges. La idea de esto es que vos mandes el codigo de tu rama a la rama de integracion o como mas te guste y le pidas a tu equipo que apruebe los cambios, asi, podes evaluar, corregir y mejorar el codigo de manera colaborativa. 
@@ -72,3 +80,11 @@ Un pull request es una peticion para agregar codigo entre ramas, no es lo mismo 
 Antes de mandar un pull request a una rama cualquiera TENES que hacer un merge local, porque si tiene conflictos, estas mandando cualquiera !!!! 
 
 Por eso es muy importante que te aprendas de memoria el algoritmo para realizar merges, si se te olvida, veni a este repo, no pasa nada, cuando lo hagas 3-4 veces te lo aprendes de memoria y te sale automatico !
+
+### Mas sobre pull request
+
+Ve a github y anda a la rama de pull request, observa los dos ejemplos de pull request ! 
+
+NOTA: disculpen que me hice quilombo con el nombre de las ramas. 
+
+
