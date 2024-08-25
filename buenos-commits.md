@@ -11,6 +11,8 @@ Asuman que tengo un proyecto con pruebas automaticas y estamos trabajando dos pe
 
 ### Paso 2 
 
-Abran los commits y leanlos
+Abran los commits y leanlos 
+
+Nota: Por comodidad pueden leer los commits desde github, si lo quieren hacer "tryhard", desde su computadora pueden usar el comando git log (para salir del log presionen q)
 
 Despues de leerlos en github mismo cambien de rama a `03-malos-commits` y vean que no estoy dandole ninguna informacion a mis compa;eros de lo que estoy haciendo en cada paso 
