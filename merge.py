@@ -1,8 +1,8 @@
-def main():
+def main(): 
     print("Hola mundo")
     return 0
 
-def factorial(numero: int):
-    if numero <= 1: 
+def factorial(n: int):
+    if n <= 0 or n == 1:
         return 1
-    return numero * factorial(numero -1)
+    return n * factorial(n - 1)
