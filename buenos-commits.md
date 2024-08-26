@@ -1,6 +1,6 @@
 # Commits de calidad 
 
-Cuando tengan un proyecto gigante la calidad de los commits es escencial, como decia, es una fotito. Si ustedes agregan un commit que representa 1234142123131 acciones en la pelicula de stop motion basicamente acabamos de destruir la pelicula, en este caso, destruimos la organizacion con la que venimos trabajando. Desde github abran la parte de commits y fijense como hago la carga de cambios y como agrego dise;o incremental (poco a poco) de funciones muy sencillas, que en caso de ser un proyecto gigante y mandase toda una feature en un solo commit nos estariamos arriesgando
+Cuando tengan un proyecto gigante la calidad de los commits es esencial, como decia, es una fotito. Si ustedes agregan un commit que representa 1234142123131 acciones en la pelicula de stop motion basicamente acabamos de destruir la pelicula, en este caso, destruimos la organizacion con la que venimos trabajando. Desde github abran la parte de commits y fijense como hago la carga de cambios y como agrego dise;o incremental (poco a poco) de funciones muy sencillas, que en caso de ser un proyecto gigante y mandase toda una feature en un solo commit nos estariamos arriesgando
 
 
 ## Por que insisto tanto ??
