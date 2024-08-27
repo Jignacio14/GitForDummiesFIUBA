@@ -12,7 +12,7 @@ Lo primero que tienen que hacer antes de comenzar es clonar el repositorio en su
 git clone https://github.com/Jignacio14/GitForDummiesFIUBA.git
 ```
 
-Para el primer paso necesito que hagan algo confiando en mi ! Ingresen este comando en alguna terminal 
+Para el primer paso necesito que hagan algo confiando en mi ! Ingresen este comando en la terminal estando en el directorio que acabamos de clonar
 
 ```
 git switch 01-status-add-commit-push 
